@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Resume</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .resume-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px;
+      background-color: rgb(222, 179, 52);
+    }
+
+    .resume-image {
+    width: 60%; 
+    max-width: 800px; 
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border: 2px solid #444;
+    }
+
+    .download-btn {
+      background-color: #223922;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-family: monospace;
+    }
+   a:hover {
+  color: #edece3;
+   background-color: #365e36;
+
+}
+
+   
+  </style>
+</head>
+<body>
+
+    <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="myworks.html">My Works</a>
+    <a href="resume.html">Resume</a>
+  </nav>
+
+  <div class="resume-container">
+    <img src="assets/1.jpg" alt="Resume Page 1" class="resume-image">
+    <img src="assets/2.jpg" alt="Resume Page 2" class="resume-image">
+
+    <a href="assets/resume.pdf" download class="download-btn">Download Resume (PDF)</a>
+  </div>
+
+</body>
+</html>
