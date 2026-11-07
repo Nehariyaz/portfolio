@@ -73,13 +73,13 @@ Then open `index.html`.
 portfolio/
 ├── .github/
 │   └── workflows/
-│       └── deploy.yml     # CI/CD pipeline
+│       └── deploy.yml     
 ├── docs/
 │   ├── index.html
 │   ├── myworks.html
 │   ├── resume.html
 │   ├── styles.css
-│   └── assets/            # images and resume PDF
+│   └── assets/            
 └── README.md
 ```
 
@@ -90,8 +90,3 @@ portfolio/
 - Setting up keyless CI/CD from GitHub Actions to AWS using OIDC
 - Writing least-privilege IAM policies and debugging `AccessDenied` errors
 - Keeping costs under control with budgets and free-tier limits
-
-## Contact
-
-- GitHub: [Nehariyaz](https://github.com/Nehariyaz)
-- LinkedIn: [Neha Amina Riyaz](https://www.linkedin.com/in/neha-amina-riyaz-264665222/)
